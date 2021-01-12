@@ -1,0 +1,182 @@
+[debug] [2021-01-12T20:53:17.469Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T20:53:17.471Z] Command:       C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node.exe C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-12T20:53:17.472Z] CLI Version:   9.2.0
+[debug] [2021-01-12T20:53:17.472Z] Platform:      win32
+[debug] [2021-01-12T20:53:17.472Z] Node Version:  v14.15.4
+[debug] [2021-01-12T20:53:17.473Z] Time:          Wed Jan 13 2021 02:23:17 GMT+0530 (India Standard Time)
+[debug] [2021-01-12T20:53:17.473Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T20:53:17.473Z] 
+[debug] [2021-01-12T20:53:17.478Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-12T20:53:17.478Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\New folder\react-akhil
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-01-12T20:54:15.200Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-01-12T20:54:36.918Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2021-01-12T20:54:37.683Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at Client.doRequest (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\apiv2.js:191:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\apiv2.js:93:20)
+    at async getProjectPage (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\management\projects.js:232:17)
+    at async getFirebaseProjectPage (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\management\projects.js:249:23)
+    at async selectProjectInteractively (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\management\projects.js:95:41)
+    at async Object.doSetup [as project] (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\init\features\project.js:87:27)
+    at async init (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2021-01-12T20:55:58.809Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T20:55:58.811Z] Command:       C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node.exe C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-12T20:55:58.812Z] CLI Version:   9.2.0
+[debug] [2021-01-12T20:55:58.812Z] Platform:      win32
+[debug] [2021-01-12T20:55:58.812Z] Node Version:  v14.15.4
+[debug] [2021-01-12T20:55:58.813Z] Time:          Wed Jan 13 2021 02:25:58 GMT+0530 (India Standard Time)
+[debug] [2021-01-12T20:55:58.813Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T20:55:58.813Z] 
+[debug] [2021-01-12T20:55:58.818Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-12T20:55:58.819Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\New folder\react-akhil
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-01-12T20:56:13.711Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-01-12T20:56:34.792Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2021-01-12T20:56:35.482Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at Client.doRequest (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\apiv2.js:191:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\apiv2.js:93:20)
+    at async getProjectPage (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\management\projects.js:232:17)
+    at async getFirebaseProjectPage (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\management\projects.js:249:23)
+    at async selectProjectInteractively (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\management\projects.js:95:41)
+    at async Object.doSetup [as project] (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\init\features\project.js:87:27)
+    at async init (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2021-01-12T20:56:53.177Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T20:56:53.180Z] Command:       C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node.exe C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-12T20:56:53.181Z] CLI Version:   9.2.0
+[debug] [2021-01-12T20:56:53.181Z] Platform:      win32
+[debug] [2021-01-12T20:56:53.181Z] Node Version:  v14.15.4
+[debug] [2021-01-12T20:56:53.182Z] Time:          Wed Jan 13 2021 02:26:53 GMT+0530 (India Standard Time)
+[debug] [2021-01-12T20:56:53.182Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T20:56:53.182Z] 
+[debug] [2021-01-12T20:56:53.189Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-12T20:56:53.190Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\New folder\react-akhil
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-01-12T20:57:38.520Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-12T20:57:38.520Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-12T20:57:39.135Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Tue, 12 Jan 2021 20:57:39 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-12T20:57:39.166Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"react-akhil","name":"react-akhil"}
+[debug] [2021-01-12T20:57:55.238Z] FirebaseError: Server Error. ETIMEDOUT
+    at Request._callback (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at Timeout.<anonymous> (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\node_modules\request\request.js:851:16)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2021-01-12T21:01:46.510Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T21:01:46.512Z] Command:       C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node.exe C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-12T21:01:46.513Z] CLI Version:   9.2.0
+[debug] [2021-01-12T21:01:46.513Z] Platform:      win32
+[debug] [2021-01-12T21:01:46.513Z] Node Version:  v14.15.4
+[debug] [2021-01-12T21:01:46.514Z] Time:          Wed Jan 13 2021 02:31:46 GMT+0530 (India Standard Time)
+[debug] [2021-01-12T21:01:46.514Z] ----------------------------------------------------------------------
+[debug] [2021-01-12T21:01:46.514Z] 
+[debug] [2021-01-12T21:01:46.521Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-12T21:01:46.521Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\New folder\react-akhil
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-01-12T21:01:55.792Z] > refreshing access token with scopes: []
+[debug] [2021-01-12T21:01:55.793Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-12T21:02:16.853Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-01-12T21:02:17.629Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\init\features\hosting\github.js:11:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\Nikhil\Downloads\node-v14.15.4-win-x64\node-v14.15.4-win-x64\node_modules\firebase-tools\lib\init\features\hosting\index.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
